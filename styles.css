@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:
+}
+
+#original-post {
+    background-color: #c764a9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#comments {
+    background-color: #a661b8;
+    padding: 20px;
+    border: 1px solid #470837;
+    border-radius: 10px;
+}
+
+#new-comment {
+    margin-bottom: 20px;
+}
+
+#new-comment input[type="text"],
+#new-comment textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#comment-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.comment {
+    background-color: #d49cc6;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.comment button.edit-comment {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.comment button.delete-comment {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
